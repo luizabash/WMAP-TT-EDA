@@ -1,4 +1,3 @@
-# Import necessary libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,7 +7,6 @@ from sklearn.metrics import mean_squared_error
 from scipy.stats import pearsonr
 
 # Load the WMAP TT Power Spectrum data
-# Replace 'wmap_tt_spectrum_5yr_v3p1.txt' with the correct file path to your data
 file_path = 'wmap_tt_spectrum_5yr_v3p1.txt'
 
 # Read the data into a pandas DataFrame, skipping the header lines that start with '#'
